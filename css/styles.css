@@ -1,0 +1,165 @@
+:root {
+  --hero-footer-color: #2f303a;
+  --background-color: #ffffff;
+  --text-color: #212121;
+  --secondary-text-color: #757575;
+  --interactive-color: #2196f3;
+  --portfolio-buttons-color: #f5f4fa;
+  --footer-address-text: color: rgba(255, 255, 255, 0.6);
+  --font-weight-medium: 500;
+  --font-weight-bold:700;
+  --font-weight-mbold:900;
+  --font-size-text:14px;
+
+}
+body {
+color: var(--text-color);
+background-color: var(--background-color);
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+}
+.list {
+list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Header Navigation and contacts */
+.nav-link,
+.logo {
+color: var(--text-color);
+}
+.nav-link, .contakt {
+font-weight: var(--font-weight-medium);
+font-size: var(--font-size-text);
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.logo-first {
+color: var(--interactive-color);
+}
+.logo, .logo-footer {
+font-family: Raleway, sans-serif;
+font-weight: var(--font-weight-bold);
+font-size: 26px;
+line-height: 1.2;
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current,
+.contakt:hover,
+.contakt:focus {
+color: var(--interactive-color);
+}
+.contakt {
+color: var(--secondary-text-color);
+}
+/* Hero */
+.hero {
+background-color: var(--hero-footer-color);
+}
+.hero-title {
+color: var(--background-color);
+font-weight: var(--font-weight-mbold);
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.main-button {
+color: var(--text-color);
+background-color: var(--interactive-color);
+font-family: inherit;
+font-weight: var(--font-weight-bold);
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer
+}
+/* Benefits section */
+.benefits-title{
+font-weight: var(--font-weight-bold);
+font-size: var(--font-size-text);
+line-height: 1.14;
+text-transform: uppercase;
+}
+.benefits-text {
+color: var(--secondary-text-color);
+font-size: var(--font-size-text);
+line-height: 1.71;
+}
+/* Activity section */
+.title {
+font-weight: var(--font-weight-bold);
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+/* Team section */
+.team-name {
+font-weight: var(--font-weight-medium);
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.team-text {
+color: var(--secondary-text-color);
+font-size: 16px;
+line-height:1.19;
+text-align: center;
+}
+/* Footer */
+.footer {
+  background-color: var(--hero-footer-color);
+}
+.logo-footer, .add-link-map {
+color: var(--background-color);
+}
+
+.add-link {
+color: var(--footer-address-text);
+}
+.add-link:hover, .add-link:focus {
+  color: var(--interactive-color);
+}
+.add-link, .add-link-map {
+font-style: normal;
+font-size: var(--font-size-text);
+line-height: 1.71;
+}
+
+/* Portfolio buttons */
+.portfolio-btn {
+color: var(--text-color);
+background-color: var(--portfolio-buttons-color);
+font-family: inherit;
+font-weight: var(--font-weight-medium);
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+cursor: pointer
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+color: var(--background-color);
+background-color: var(--interactive-color);
+}
+/* Portfilio cards */
+.card-link {
+color: var(--text-color);
+}
+.card-title {
+font-weight: var(--font-weight-bold);
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.card-subtitle {
+color: var(--secondary-text-color);
+font-size: 16px;
+line-height: 1.88;
+}
